@@ -6,12 +6,10 @@ namespace SmartCoding
     {
         public static bool IsPrime(long n)
         {
-            for (long i = 2; i <= n / 2; i++)
+            for (long i = 2; i <= Math.Sqrt(n); i++)
             {
                 if (n % i == 0)
-                {
                     return false;
-                }
             }
             return true;
         }
