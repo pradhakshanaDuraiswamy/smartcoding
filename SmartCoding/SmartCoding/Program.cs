@@ -2,7 +2,7 @@
 
 namespace SmartCoding
 {
-    //I am Shebee .. Writting THis COmment line..
+    
     public class Program
     {
         public static bool IsPrime(long n)
@@ -24,11 +24,8 @@ namespace SmartCoding
 
         private static void Calc()
         {
-            Console.WriteLine("Make a choice");
-            Console.WriteLine("1. Add");
-            Console.WriteLine("2. Subtract");
-            Console.WriteLine("3. Multiply");
-            Console.WriteLine("4. Divide");
+            Console.WriteLine("Make a choice 1.add 2.sub 3.multiply 4.divide");
+            //heyya! tats me!!!!!
 
             int choice = int.Parse(Console.ReadLine());
 
